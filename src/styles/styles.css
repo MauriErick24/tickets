@@ -1,70 +1,142 @@
-
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
 /* .img-full{
     width: 100%;
 } */
 
-.cover{
-    background: url(../assets//images//travel1.jpeg) no-repeat center;
-    background-size: cover;
-    position: relative;
+.cover {
+  background: url(../assets//images//travel1.jpeg) no-repeat center;
+  background-size: cover;
+  position: relative;
 
-    gap: 2em;
+  gap: 2em;
 
-    height: 30em;
+  height: 30em;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    button{
-        width: 50%;
-    }
+  button {
+    width: 50%;
+  }
 }
 
 .cover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Ajusta la opacidad y el color según tus necesidades */
+  z-index: 1; /* Asegúrate de que el pseudo-elemento esté sobre la imagen */
+}
+
+h1,
+h2 {
+  margin: 0px;
+}
+
+.cover-text {
+  text-align: center;
+  color: white;
+}
+
+.cover-text,
+.cover button {
+  position: relative;
+  z-index: 2;
+}
+
+.body {
+  background-color: yellowgreen;
+  height: 50vh;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* Information Form */
+
+.form-container {
+  margin: 1em;
+}
+
+form {
+  border-radius: 5px;
+  border: solid 1px black;
+  padding: 1em;
+  margin-top: 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.4em;
+}
+
+/* Buy Tickets */
+
+.company-card {
+  margin: 1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-around;
+
+  .img-card {
+    width: 40%;
+  }
+
+  img {
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad y el color según tus necesidades */
-    z-index: 1; /* Asegúrate de que el pseudo-elemento esté sobre la imagen */
-}
+    height: auto;
+  }
 
-h1, h2{
-    margin: 0px;
-}
-
-.cover-text{
-    text-align: center;
-    color: white;
-}
-
-.cover-text, .cover button{
-    position: relative;
-    z-index: 2;
-}
-
-.body{
-    background-color: yellowgreen;
-    height: 50vh;
-
-    color: white;
+  .info {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-}
+    gap: 1em;
+    h3 {
+      margin: 0px;
+    }
+  }
 
-.footer{
-    background-color: black;
-    color: white;
+  .details {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+
+    p {
+      margin: 0px;
+    }
+  }
 }
