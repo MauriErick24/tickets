@@ -1,6 +1,7 @@
-import BuyTickets from "../views/BuyTickets";
+import BuyTickets from "../views/Company";
 import Home from "../views/Home";
 import InformationForm from "../views/InformationForm";
+import Tickets from "../views/Tickets";
 
 const router = [
   {
@@ -13,8 +14,12 @@ const router = [
     element: <InformationForm />,
   },
   {
-    path: "/information/tickets",
+    path: "/companies",
     element: <BuyTickets />,
+  },
+  {
+    path: "/tickets",
+    element: <Tickets />,
   },
   // {
   //   path: "/",

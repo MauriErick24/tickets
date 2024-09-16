@@ -100,7 +100,7 @@ form {
   gap: 0.4em;
 }
 
-/* Buy Tickets */
+/* Company */
 
 .company-card {
   margin: 1em;
@@ -139,4 +139,45 @@ form {
       margin: 0px;
     }
   }
+}
+
+/* tickets */
+
+.card-list {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.hour-card {
+  padding: 1em;
+
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.price-table,
+th,
+td {
+  border: solid 1px black;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+}
+
+.select-btn {
+  width: 100%;
+  height: 100%;
 }
