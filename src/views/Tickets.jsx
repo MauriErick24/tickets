@@ -5,7 +5,7 @@ const Tickets = () => {
     <div className="containter">
       <h2>Trans Copacabana</h2>
       <br />
-      <b>Horarios disponibles</b>
+      <b>Horarios disponibles - 16/9/2024</b>
       <div className="card-list">
         <div className="hour-card">
           <p>Salida: 8:00 - Llegada 17:00</p>
