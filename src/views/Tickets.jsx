@@ -25,13 +25,13 @@ const Tickets = () => {
               </tr>
               <tr>
                 <td>
-                  <button className="select-btn">Selccionar</button>
+                  <button className="select-hour-btn">Selccionar</button>
                 </td>
                 <td>
-                  <button className="select-btn">Selccionar</button>
+                  <button className="select-hour-btn">Selccionar</button>
                 </td>
                 <td>
-                  <button className="select-btn">Selccionar</button>
+                  <button className="select-hour-btn">Selccionar</button>
                 </td>
               </tr>
             </tbody>
@@ -66,7 +66,7 @@ const Tickets = () => {
                   </button>
                 </td>
                 <td>
-                  <button className="select-btn">Selccionar</button>
+                  <button className="select-hour-btn">Selccionar</button>
                 </td>
               </tr>
             </tbody>

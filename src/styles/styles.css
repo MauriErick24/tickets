@@ -1,8 +1,8 @@
 body {
-  margin: 0px;
+  margin: 0px !important;
 }
 
-/* .img-full{
+/* .img-full{ 
     width: 100%;
 } */
 
@@ -152,8 +152,7 @@ form {
 
 .hour-card {
   padding: 1em;
-
-  border: solid 1px black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
@@ -177,7 +176,9 @@ button {
   border: none;
 }
 
-.select-btn {
+.select-hour-btn {
   width: 100%;
   height: 100%;
+  background-color: #fa8908;
+  color: white;
 }

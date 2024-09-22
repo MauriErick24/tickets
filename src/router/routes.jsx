@@ -25,16 +25,16 @@ const router = [
     element: <Tickets />,
   },
   {
-    path: "/payment",
-    element: <Payment />,
-  },
-  {
     path: "/seats",
     element: <Seats />,
   },
   {
     path: "/Bedseats",
     element: <BedSeats />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
   },
   // {
   //   path: "/",
