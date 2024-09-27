@@ -2,9 +2,10 @@ import BedSeats from "../views/BedSeats";
 import BuyTickets from "../views/Company";
 import Home from "../views/Home";
 import InformationForm from "../views/InformationForm";
-import Payment from "../views/Payment";
+import SeatsInformation from "../views/SeatsInformation";
 import Seats from "../views/Seats";
 import Tickets from "../views/Tickets";
+import Payment from "../views/Payment";
 
 const router = [
   {
@@ -31,6 +32,10 @@ const router = [
   {
     path: "/Bedseats",
     element: <BedSeats />,
+  },
+  {
+    path: "/seatsInformation",
+    element: <SeatsInformation />,
   },
   {
     path: "/payment",
